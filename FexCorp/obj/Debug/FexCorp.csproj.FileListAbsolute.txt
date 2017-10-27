@@ -1,0 +1,16 @@
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\bin\Debug\FexCorp.exe.config
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\bin\Debug\FexCorp.exe
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\bin\Debug\FexCorp.pdb
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.csprojResolveAssemblyReference.cache
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.FormContenedor.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.Properties.Resources.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.csproj.GenerateResource.Cache
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.exe
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.pdb
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuPrincipal.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuEnvios.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuSucursal.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuClientes.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuSeguimiento.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuReportes.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuConfiguracion.resources
