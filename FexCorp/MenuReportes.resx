@@ -235,4 +235,37 @@
         gg==
 </value>
   </data>
+  <data name="btnRep3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAE1SURBVGhD7ZVBCsMwDATztDa/ST/Qa4/9Zl7SVmYNRngDm0aggwYWGsXrjn3JUhRFkYv7tn8y
+        B5qcWSlToMmZlTIFmpxZKVOgyZELwcg+ciEY2UcuBCP7yIVgZB+5cCG3bX9a8NiQfeTCRayP/dX/035j
+        fN0B/FwNtmn4m7bf49p12994le8A/qbH5z7D0sb4zoIxhxX8XA22Wex2Z+8t4813/BqMOazg52qwTcPf
+        usXffMevw5gjF04yHoLJG6OLBWOOXPgDEz+SN2QfuRCM7CMXgpF95MKF1JfYYAU/V4NtGvUlPoIV/FwN
+        tqkvMcYcuXCS8RBM3hhdLBhz5MIfmPiRvCH7yIVgZB+5EIzsIxeCkX3kQjCyjy9kCzQ5s1KmQJMzK2UK
+        NDmzUqZAsyiKoih+LMsXsCBDfKSHLvAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnRep2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAE1SURBVGhD7ZVBCsMwDATztDa/ST/Qa4/9Zl7SVmYNRngDm0aggwYWGsXrjn3JUhRFkYv7tn8y
+        B5qcWSlToMmZlTIFmpxZKVOgyZELwcg+ciEY2UcuBCP7yIVgZB+5cCG3bX9a8NiQfeTCRayP/dX/035j
+        fN0B/FwNtmn4m7bf49p12994le8A/qbH5z7D0sb4zoIxhxX8XA22Wex2Z+8t4813/BqMOazg52qwTcPf
+        usXffMevw5gjF04yHoLJG6OLBWOOXPgDEz+SN2QfuRCM7CMXgpF95MKF1JfYYAU/V4NtGvUlPoIV/FwN
+        tqkvMcYcuXCS8RBM3hhdLBhz5MIfmPiRvCH7yIVgZB+5EIzsIxeCkX3kQjCyjy9kCzQ5s1KmQJMzK2UK
+        NDmzUqZAsyiKoih+LMsXsCBDfKSHLvAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnRep1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAE1SURBVGhD7ZVBCsMwDATztDa/ST/Qa4/9Zl7SVmYNRngDm0aggwYWGsXrjn3JUhRFkYv7tn8y
+        B5qcWSlToMmZlTIFmpxZKVOgyZELwcg+ciEY2UcuBCP7yIVgZB+5cCG3bX9a8NiQfeTCRayP/dX/035j
+        fN0B/FwNtmn4m7bf49p12994le8A/qbH5z7D0sb4zoIxhxX8XA22Wex2Z+8t4813/BqMOazg52qwTcPf
+        usXffMevw5gjF04yHoLJG6OLBWOOXPgDEz+SN2QfuRCM7CMXgpF95MKF1JfYYAU/V4NtGvUlPoIV/FwN
+        tqkvMcYcuXCS8RBM3hhdLBhz5MIfmPiRvCH7yIVgZB+5EIzsIxeCkX3kQjCyjy9kCzQ5s1KmQJMzK2UK
+        NDmzUqZAsyiKoih+LMsXsCBDfKSHLvAAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>

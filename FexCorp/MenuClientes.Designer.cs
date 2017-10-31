@@ -37,7 +37,8 @@
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnListaTodos = new System.Windows.Forms.Button();
+            this.btnBajaCliente = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,24 +157,46 @@
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // btnListaTodos
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(345, 142);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 25);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Clientes";
+            this.btnListaTodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnListaTodos.FlatAppearance.BorderSize = 0;
+            this.btnListaTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListaTodos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListaTodos.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnListaTodos.Image = ((System.Drawing.Image)(resources.GetObject("btnListaTodos.Image")));
+            this.btnListaTodos.Location = new System.Drawing.Point(246, 142);
+            this.btnListaTodos.Name = "btnListaTodos";
+            this.btnListaTodos.Size = new System.Drawing.Size(177, 112);
+            this.btnListaTodos.TabIndex = 12;
+            this.btnListaTodos.Text = "Listar Clientes";
+            this.btnListaTodos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnListaTodos.UseVisualStyleBackColor = false;
+            // 
+            // btnBajaCliente
+            // 
+            this.btnBajaCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnBajaCliente.FlatAppearance.BorderSize = 0;
+            this.btnBajaCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBajaCliente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBajaCliente.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnBajaCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnBajaCliente.Image")));
+            this.btnBajaCliente.Location = new System.Drawing.Point(485, 142);
+            this.btnBajaCliente.Name = "btnBajaCliente";
+            this.btnBajaCliente.Size = new System.Drawing.Size(177, 112);
+            this.btnBajaCliente.TabIndex = 11;
+            this.btnBajaCliente.Text = "Eiminar Cliente";
+            this.btnBajaCliente.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBajaCliente.UseVisualStyleBackColor = false;
             // 
             // MenuClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(749, 398);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(775, 398);
+            this.Controls.Add(this.btnListaTodos);
+            this.Controls.Add(this.btnBajaCliente);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuClientes";
@@ -181,7 +204,6 @@
             this.Text = "MenuClientes";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -195,6 +217,7 @@
         private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnEnvios;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnListaTodos;
+        private System.Windows.Forms.Button btnBajaCliente;
     }
 }

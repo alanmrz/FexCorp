@@ -37,7 +37,9 @@
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnRep3 = new System.Windows.Forms.Button();
+            this.btnRep2 = new System.Windows.Forms.Button();
+            this.btnRep1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,24 +158,63 @@
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // btnRep3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(296, 194);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 25);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Reportes";
+            this.btnRep3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnRep3.FlatAppearance.BorderSize = 0;
+            this.btnRep3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRep3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRep3.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnRep3.Image = ((System.Drawing.Image)(resources.GetObject("btnRep3.Image")));
+            this.btnRep3.Location = new System.Drawing.Point(579, 136);
+            this.btnRep3.Name = "btnRep3";
+            this.btnRep3.Size = new System.Drawing.Size(177, 112);
+            this.btnRep3.TabIndex = 13;
+            this.btnRep3.Text = "Reporte 3";
+            this.btnRep3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnRep3.UseVisualStyleBackColor = false;
+            // 
+            // btnRep2
+            // 
+            this.btnRep2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnRep2.FlatAppearance.BorderSize = 0;
+            this.btnRep2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRep2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRep2.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnRep2.Image = ((System.Drawing.Image)(resources.GetObject("btnRep2.Image")));
+            this.btnRep2.Location = new System.Drawing.Point(370, 136);
+            this.btnRep2.Name = "btnRep2";
+            this.btnRep2.Size = new System.Drawing.Size(177, 112);
+            this.btnRep2.TabIndex = 12;
+            this.btnRep2.Text = "Reporte 2";
+            this.btnRep2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnRep2.UseVisualStyleBackColor = false;
+            // 
+            // btnRep1
+            // 
+            this.btnRep1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnRep1.FlatAppearance.BorderSize = 0;
+            this.btnRep1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRep1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRep1.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnRep1.Image = ((System.Drawing.Image)(resources.GetObject("btnRep1.Image")));
+            this.btnRep1.Location = new System.Drawing.Point(162, 136);
+            this.btnRep1.Name = "btnRep1";
+            this.btnRep1.Size = new System.Drawing.Size(177, 112);
+            this.btnRep1.TabIndex = 11;
+            this.btnRep1.Text = "Reporte 1";
+            this.btnRep1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnRep1.UseVisualStyleBackColor = false;
             // 
             // MenuReportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(749, 398);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(768, 398);
+            this.Controls.Add(this.btnRep3);
+            this.Controls.Add(this.btnRep2);
+            this.Controls.Add(this.btnRep1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuReportes";
@@ -181,7 +222,6 @@
             this.Text = "MenuReportes";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -195,6 +235,8 @@
         private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnEnvios;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRep3;
+        private System.Windows.Forms.Button btnRep2;
+        private System.Windows.Forms.Button btnRep1;
     }
 }

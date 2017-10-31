@@ -37,7 +37,9 @@
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnRestaurar = new System.Windows.Forms.Button();
+            this.btnBk = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,24 +158,63 @@
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // btnEliminar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(373, 194);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 25);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Configuraciones";
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
+            this.btnEliminar.Location = new System.Drawing.Point(572, 140);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(177, 112);
+            this.btnEliminar.TabIndex = 16;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            // 
+            // btnRestaurar
+            // 
+            this.btnRestaurar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnRestaurar.FlatAppearance.BorderSize = 0;
+            this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRestaurar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestaurar.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
+            this.btnRestaurar.Location = new System.Drawing.Point(363, 140);
+            this.btnRestaurar.Name = "btnRestaurar";
+            this.btnRestaurar.Size = new System.Drawing.Size(177, 112);
+            this.btnRestaurar.TabIndex = 15;
+            this.btnRestaurar.Text = "Restaurar";
+            this.btnRestaurar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnRestaurar.UseVisualStyleBackColor = false;
+            // 
+            // btnBk
+            // 
+            this.btnBk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnBk.FlatAppearance.BorderSize = 0;
+            this.btnBk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBk.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBk.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnBk.Image = ((System.Drawing.Image)(resources.GetObject("btnBk.Image")));
+            this.btnBk.Location = new System.Drawing.Point(155, 140);
+            this.btnBk.Name = "btnBk";
+            this.btnBk.Size = new System.Drawing.Size(177, 112);
+            this.btnBk.TabIndex = 14;
+            this.btnBk.Text = "Back Up";
+            this.btnBk.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBk.UseVisualStyleBackColor = false;
             // 
             // MenuConfiguracion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(749, 398);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(768, 398);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnRestaurar);
+            this.Controls.Add(this.btnBk);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuConfiguracion";
@@ -181,7 +222,6 @@
             this.Text = "MenuConfiguracion";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -195,6 +235,8 @@
         private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnEnvios;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnRestaurar;
+        private System.Windows.Forms.Button btnBk;
     }
 }

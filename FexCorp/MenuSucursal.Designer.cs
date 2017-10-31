@@ -37,7 +37,9 @@
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnAgreSucursal = new System.Windows.Forms.Button();
+            this.btnListaTodos = new System.Windows.Forms.Button();
+            this.btnBaja = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,24 +158,63 @@
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // btnAgreSucursal
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(295, 104);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 25);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Sucursales";
+            this.btnAgreSucursal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnAgreSucursal.FlatAppearance.BorderSize = 0;
+            this.btnAgreSucursal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgreSucursal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgreSucursal.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnAgreSucursal.Image = ((System.Drawing.Image)(resources.GetObject("btnAgreSucursal.Image")));
+            this.btnAgreSucursal.Location = new System.Drawing.Point(154, 141);
+            this.btnAgreSucursal.Name = "btnAgreSucursal";
+            this.btnAgreSucursal.Size = new System.Drawing.Size(177, 112);
+            this.btnAgreSucursal.TabIndex = 11;
+            this.btnAgreSucursal.Text = "Agregar Sucursal";
+            this.btnAgreSucursal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnAgreSucursal.UseVisualStyleBackColor = false;
+            // 
+            // btnListaTodos
+            // 
+            this.btnListaTodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnListaTodos.FlatAppearance.BorderSize = 0;
+            this.btnListaTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListaTodos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListaTodos.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnListaTodos.Image = ((System.Drawing.Image)(resources.GetObject("btnListaTodos.Image")));
+            this.btnListaTodos.Location = new System.Drawing.Point(362, 141);
+            this.btnListaTodos.Name = "btnListaTodos";
+            this.btnListaTodos.Size = new System.Drawing.Size(177, 112);
+            this.btnListaTodos.TabIndex = 12;
+            this.btnListaTodos.Text = "Listar Sucursales";
+            this.btnListaTodos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnListaTodos.UseVisualStyleBackColor = false;
+            // 
+            // btnBaja
+            // 
+            this.btnBaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnBaja.FlatAppearance.BorderSize = 0;
+            this.btnBaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBaja.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBaja.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnBaja.Image = ((System.Drawing.Image)(resources.GetObject("btnBaja.Image")));
+            this.btnBaja.Location = new System.Drawing.Point(569, 141);
+            this.btnBaja.Name = "btnBaja";
+            this.btnBaja.Size = new System.Drawing.Size(177, 112);
+            this.btnBaja.TabIndex = 15;
+            this.btnBaja.Text = "Dar de Baja Sucursal";
+            this.btnBaja.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBaja.UseVisualStyleBackColor = false;
             // 
             // MenuSucursal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(749, 398);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(768, 398);
+            this.Controls.Add(this.btnBaja);
+            this.Controls.Add(this.btnListaTodos);
+            this.Controls.Add(this.btnAgreSucursal);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuSucursal";
@@ -181,7 +222,6 @@
             this.Text = "MenuSucursal";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -195,6 +235,8 @@
         private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnEnvios;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAgreSucursal;
+        private System.Windows.Forms.Button btnListaTodos;
+        private System.Windows.Forms.Button btnBaja;
     }
 }

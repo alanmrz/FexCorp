@@ -37,7 +37,11 @@
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnModificarEst = new System.Windows.Forms.Button();
+            this.btnEstadoEnvios = new System.Windows.Forms.Button();
+            this.btnListarEntregados = new System.Windows.Forms.Button();
+            this.btnListarEnviados = new System.Windows.Forms.Button();
+            this.btnUnEnvio = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,24 +160,97 @@
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // btnModificarEst
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(338, 175);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 25);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Seguimiento";
+            this.btnModificarEst.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnModificarEst.FlatAppearance.BorderSize = 0;
+            this.btnModificarEst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModificarEst.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificarEst.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnModificarEst.Image = ((System.Drawing.Image)(resources.GetObject("btnModificarEst.Image")));
+            this.btnModificarEst.Location = new System.Drawing.Point(471, 218);
+            this.btnModificarEst.Name = "btnModificarEst";
+            this.btnModificarEst.Size = new System.Drawing.Size(177, 112);
+            this.btnModificarEst.TabIndex = 15;
+            this.btnModificarEst.Text = "Modificar Estado";
+            this.btnModificarEst.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnModificarEst.UseVisualStyleBackColor = false;
+            // 
+            // btnEstadoEnvios
+            // 
+            this.btnEstadoEnvios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnEstadoEnvios.FlatAppearance.BorderSize = 0;
+            this.btnEstadoEnvios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEstadoEnvios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstadoEnvios.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnEstadoEnvios.Image = ((System.Drawing.Image)(resources.GetObject("btnEstadoEnvios.Image")));
+            this.btnEstadoEnvios.Location = new System.Drawing.Point(264, 218);
+            this.btnEstadoEnvios.Name = "btnEstadoEnvios";
+            this.btnEstadoEnvios.Size = new System.Drawing.Size(177, 112);
+            this.btnEstadoEnvios.TabIndex = 14;
+            this.btnEstadoEnvios.Text = "Estado de Envios";
+            this.btnEstadoEnvios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEstadoEnvios.UseVisualStyleBackColor = false;
+            // 
+            // btnListarEntregados
+            // 
+            this.btnListarEntregados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnListarEntregados.FlatAppearance.BorderSize = 0;
+            this.btnListarEntregados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListarEntregados.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListarEntregados.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnListarEntregados.Image = ((System.Drawing.Image)(resources.GetObject("btnListarEntregados.Image")));
+            this.btnListarEntregados.Location = new System.Drawing.Point(579, 84);
+            this.btnListarEntregados.Name = "btnListarEntregados";
+            this.btnListarEntregados.Size = new System.Drawing.Size(177, 112);
+            this.btnListarEntregados.TabIndex = 13;
+            this.btnListarEntregados.Text = "Envios Entregados";
+            this.btnListarEntregados.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnListarEntregados.UseVisualStyleBackColor = false;
+            // 
+            // btnListarEnviados
+            // 
+            this.btnListarEnviados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnListarEnviados.FlatAppearance.BorderSize = 0;
+            this.btnListarEnviados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListarEnviados.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListarEnviados.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnListarEnviados.Image = ((System.Drawing.Image)(resources.GetObject("btnListarEnviados.Image")));
+            this.btnListarEnviados.Location = new System.Drawing.Point(375, 84);
+            this.btnListarEnviados.Name = "btnListarEnviados";
+            this.btnListarEnviados.Size = new System.Drawing.Size(177, 112);
+            this.btnListarEnviados.TabIndex = 12;
+            this.btnListarEnviados.Text = "Envios en Camino";
+            this.btnListarEnviados.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnListarEnviados.UseVisualStyleBackColor = false;
+            // 
+            // btnUnEnvio
+            // 
+            this.btnUnEnvio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnUnEnvio.FlatAppearance.BorderSize = 0;
+            this.btnUnEnvio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUnEnvio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUnEnvio.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnUnEnvio.Image = ((System.Drawing.Image)(resources.GetObject("btnUnEnvio.Image")));
+            this.btnUnEnvio.Location = new System.Drawing.Point(167, 84);
+            this.btnUnEnvio.Name = "btnUnEnvio";
+            this.btnUnEnvio.Size = new System.Drawing.Size(177, 112);
+            this.btnUnEnvio.TabIndex = 11;
+            this.btnUnEnvio.Text = "Seguimiento Envio\r\n";
+            this.btnUnEnvio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnUnEnvio.UseVisualStyleBackColor = false;
             // 
             // MenuSeguimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(749, 398);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(768, 398);
+            this.Controls.Add(this.btnModificarEst);
+            this.Controls.Add(this.btnEstadoEnvios);
+            this.Controls.Add(this.btnListarEntregados);
+            this.Controls.Add(this.btnListarEnviados);
+            this.Controls.Add(this.btnUnEnvio);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuSeguimiento";
@@ -181,7 +258,6 @@
             this.Text = "MenuSeguimiento";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -195,6 +271,10 @@
         private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnEnvios;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnModificarEst;
+        private System.Windows.Forms.Button btnEstadoEnvios;
+        private System.Windows.Forms.Button btnListarEntregados;
+        private System.Windows.Forms.Button btnListarEnviados;
+        private System.Windows.Forms.Button btnUnEnvio;
     }
 }

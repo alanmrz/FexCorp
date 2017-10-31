@@ -37,7 +37,9 @@
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnNuevoEnvio = new System.Windows.Forms.Button();
+            this.btnListaTodos = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,24 +158,63 @@
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // btnNuevoEnvio
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(359, 156);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 25);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Envios";
+            this.btnNuevoEnvio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnNuevoEnvio.FlatAppearance.BorderSize = 0;
+            this.btnNuevoEnvio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevoEnvio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevoEnvio.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnNuevoEnvio.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevoEnvio.Image")));
+            this.btnNuevoEnvio.Location = new System.Drawing.Point(162, 139);
+            this.btnNuevoEnvio.Name = "btnNuevoEnvio";
+            this.btnNuevoEnvio.Size = new System.Drawing.Size(177, 112);
+            this.btnNuevoEnvio.TabIndex = 6;
+            this.btnNuevoEnvio.Text = "Nuevo Envio";
+            this.btnNuevoEnvio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNuevoEnvio.UseVisualStyleBackColor = false;
+            // 
+            // btnListaTodos
+            // 
+            this.btnListaTodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnListaTodos.FlatAppearance.BorderSize = 0;
+            this.btnListaTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListaTodos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListaTodos.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnListaTodos.Image = ((System.Drawing.Image)(resources.GetObject("btnListaTodos.Image")));
+            this.btnListaTodos.Location = new System.Drawing.Point(370, 139);
+            this.btnListaTodos.Name = "btnListaTodos";
+            this.btnListaTodos.Size = new System.Drawing.Size(177, 112);
+            this.btnListaTodos.TabIndex = 7;
+            this.btnListaTodos.Text = "Listar Envios";
+            this.btnListaTodos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnListaTodos.UseVisualStyleBackColor = false;
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnModificar.FlatAppearance.BorderSize = 0;
+            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModificar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnModificar.Image = ((System.Drawing.Image)(resources.GetObject("btnModificar.Image")));
+            this.btnModificar.Location = new System.Drawing.Point(579, 139);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(177, 112);
+            this.btnModificar.TabIndex = 10;
+            this.btnModificar.Text = "Modificar Envio";
+            this.btnModificar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnModificar.UseVisualStyleBackColor = false;
             // 
             // MenuEnvios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(749, 398);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(768, 398);
+            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnListaTodos);
+            this.Controls.Add(this.btnNuevoEnvio);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuEnvios";
@@ -181,7 +222,6 @@
             this.Text = "MenuEnvios";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -195,6 +235,8 @@
         private System.Windows.Forms.Button btnSeguimiento;
         private System.Windows.Forms.Button btnReportes;
         private System.Windows.Forms.Button btnConfig;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnNuevoEnvio;
+        private System.Windows.Forms.Button btnListaTodos;
+        private System.Windows.Forms.Button btnModificar;
     }
 }
