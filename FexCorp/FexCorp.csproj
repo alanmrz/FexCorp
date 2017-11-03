@@ -92,6 +92,18 @@
     <Compile Include="MenuSucursal.Designer.cs">
       <DependentUpon>MenuSucursal.cs</DependentUpon>
     </Compile>
+    <Compile Include="NuevoEnvio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoEnvio.Designer.cs">
+      <DependentUpon>NuevoEnvio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoEnvio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoEnvio2.Designer.cs">
+      <DependentUpon>NuevoEnvio2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormContenedor.resx">
@@ -117,6 +129,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuSucursal.resx">
       <DependentUpon>MenuSucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoEnvio.resx">
+      <DependentUpon>NuevoEnvio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoEnvio2.resx">
+      <DependentUpon>NuevoEnvio2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
