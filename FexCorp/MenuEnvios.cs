@@ -16,5 +16,19 @@ namespace FexCorp
         {
             InitializeComponent();
         }
+
+        private void btnNuevoEnvio_Click(object sender, EventArgs e)
+        {
+            NuevoEnvio frm = new NuevoEnvio();
+            frm.MdiParent = this.ParentForm;
+            this.Close();
+            frm.Show();
+        }
+
+        private void MenuEnvios_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Size = new Size(768, 398);
+        }
     }
 }

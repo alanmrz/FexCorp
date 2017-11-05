@@ -17,5 +17,11 @@ namespace FexCorp
             InitializeComponent();
         }
 
+        private void NuevoEnvio_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Size = new Size(768, 398);
+        }
+
     }
 }

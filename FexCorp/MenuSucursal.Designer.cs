@@ -34,7 +34,6 @@
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnSeguimiento = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
-            this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.btnAgreSucursal = new System.Windows.Forms.Button();
@@ -50,7 +49,6 @@
             this.panel1.Controls.Add(this.btnReportes);
             this.panel1.Controls.Add(this.btnSeguimiento);
             this.panel1.Controls.Add(this.btnClientes);
-            this.panel1.Controls.Add(this.btnSucursal);
             this.panel1.Controls.Add(this.btnEnvios);
             this.panel1.Controls.Add(this.btnHome);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -67,7 +65,7 @@
             this.btnConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfig.Image = ((System.Drawing.Image)(resources.GetObject("btnConfig.Image")));
             this.btnConfig.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnConfig.Location = new System.Drawing.Point(0, 312);
+            this.btnConfig.Location = new System.Drawing.Point(0, 260);
             this.btnConfig.Name = "btnConfig";
             this.btnConfig.Size = new System.Drawing.Size(68, 52);
             this.btnConfig.TabIndex = 9;
@@ -81,7 +79,7 @@
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
             this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnReportes.Location = new System.Drawing.Point(0, 260);
+            this.btnReportes.Location = new System.Drawing.Point(0, 208);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(68, 52);
             this.btnReportes.TabIndex = 8;
@@ -95,7 +93,7 @@
             this.btnSeguimiento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeguimiento.Image = ((System.Drawing.Image)(resources.GetObject("btnSeguimiento.Image")));
             this.btnSeguimiento.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSeguimiento.Location = new System.Drawing.Point(0, 208);
+            this.btnSeguimiento.Location = new System.Drawing.Point(0, 156);
             this.btnSeguimiento.Name = "btnSeguimiento";
             this.btnSeguimiento.Size = new System.Drawing.Size(68, 52);
             this.btnSeguimiento.TabIndex = 7;
@@ -109,25 +107,11 @@
             this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnClientes.Location = new System.Drawing.Point(0, 156);
+            this.btnClientes.Location = new System.Drawing.Point(0, 104);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(68, 52);
             this.btnClientes.TabIndex = 6;
             this.btnClientes.UseVisualStyleBackColor = false;
-            // 
-            // btnSucursal
-            // 
-            this.btnSucursal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnSucursal.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSucursal.FlatAppearance.BorderSize = 0;
-            this.btnSucursal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSucursal.Image = ((System.Drawing.Image)(resources.GetObject("btnSucursal.Image")));
-            this.btnSucursal.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSucursal.Location = new System.Drawing.Point(0, 104);
-            this.btnSucursal.Name = "btnSucursal";
-            this.btnSucursal.Size = new System.Drawing.Size(68, 52);
-            this.btnSucursal.TabIndex = 5;
-            this.btnSucursal.UseVisualStyleBackColor = false;
             // 
             // btnEnvios
             // 
@@ -232,7 +216,6 @@
         private System.Windows.Forms.Button btnReportes;
         private System.Windows.Forms.Button btnSeguimiento;
         private System.Windows.Forms.Button btnClientes;
-        private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnEnvios;
         private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Button btnAgreSucursal;

@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuConfiguracion));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnConfig = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnSeguimiento = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
@@ -46,7 +45,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.panel1.Controls.Add(this.btnConfig);
             this.panel1.Controls.Add(this.btnReportes);
             this.panel1.Controls.Add(this.btnSeguimiento);
             this.panel1.Controls.Add(this.btnClientes);
@@ -58,20 +56,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(68, 398);
             this.panel1.TabIndex = 6;
-            // 
-            // btnConfig
-            // 
-            this.btnConfig.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnConfig.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnConfig.FlatAppearance.BorderSize = 0;
-            this.btnConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfig.Image = ((System.Drawing.Image)(resources.GetObject("btnConfig.Image")));
-            this.btnConfig.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnConfig.Location = new System.Drawing.Point(0, 312);
-            this.btnConfig.Name = "btnConfig";
-            this.btnConfig.Size = new System.Drawing.Size(68, 52);
-            this.btnConfig.TabIndex = 9;
-            this.btnConfig.UseVisualStyleBackColor = false;
             // 
             // btnReportes
             // 
@@ -228,7 +212,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnConfig;
         private System.Windows.Forms.Button btnReportes;
         private System.Windows.Forms.Button btnSeguimiento;
         private System.Windows.Forms.Button btnClientes;

@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuReportes));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnConfig = new System.Windows.Forms.Button();
-            this.btnReportes = new System.Windows.Forms.Button();
             this.btnSeguimiento = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnSucursal = new System.Windows.Forms.Button();
@@ -47,7 +46,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
             this.panel1.Controls.Add(this.btnConfig);
-            this.panel1.Controls.Add(this.btnReportes);
             this.panel1.Controls.Add(this.btnSeguimiento);
             this.panel1.Controls.Add(this.btnClientes);
             this.panel1.Controls.Add(this.btnSucursal);
@@ -67,25 +65,11 @@
             this.btnConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfig.Image = ((System.Drawing.Image)(resources.GetObject("btnConfig.Image")));
             this.btnConfig.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnConfig.Location = new System.Drawing.Point(0, 312);
+            this.btnConfig.Location = new System.Drawing.Point(0, 260);
             this.btnConfig.Name = "btnConfig";
             this.btnConfig.Size = new System.Drawing.Size(68, 52);
             this.btnConfig.TabIndex = 9;
             this.btnConfig.UseVisualStyleBackColor = false;
-            // 
-            // btnReportes
-            // 
-            this.btnReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnReportes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReportes.FlatAppearance.BorderSize = 0;
-            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
-            this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnReportes.Location = new System.Drawing.Point(0, 260);
-            this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(68, 52);
-            this.btnReportes.TabIndex = 8;
-            this.btnReportes.UseVisualStyleBackColor = false;
             // 
             // btnSeguimiento
             // 
@@ -229,7 +213,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnConfig;
-        private System.Windows.Forms.Button btnReportes;
         private System.Windows.Forms.Button btnSeguimiento;
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnSucursal;

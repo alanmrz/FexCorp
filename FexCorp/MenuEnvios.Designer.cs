@@ -157,6 +157,7 @@
             this.btnNuevoEnvio.Text = "Nuevo Envio";
             this.btnNuevoEnvio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnNuevoEnvio.UseVisualStyleBackColor = false;
+            this.btnNuevoEnvio.Click += new System.EventHandler(this.btnNuevoEnvio_Click);
             // 
             // btnListaTodos
             // 
@@ -204,6 +205,7 @@
             this.Name = "MenuEnvios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MenuEnvios";
+            this.Load += new System.EventHandler(this.MenuEnvios_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

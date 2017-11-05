@@ -14,3 +14,5 @@ C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuClientes.resources
 C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuSeguimiento.resources
 C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuReportes.resources
 C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuConfiguracion.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.NuevoEnvio.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.NuevoEnvio2.resources
