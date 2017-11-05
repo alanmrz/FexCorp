@@ -36,14 +36,12 @@
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -159,17 +157,6 @@
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label7.Location = new System.Drawing.Point(126, 208);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 17);
-            this.label7.TabIndex = 21;
-            this.label7.Text = "Direccion:";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -228,13 +215,6 @@
             this.textBox3.Size = new System.Drawing.Size(438, 20);
             this.textBox3.TabIndex = 24;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(303, 208);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(438, 20);
-            this.textBox2.TabIndex = 23;
-            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(303, 118);
@@ -244,7 +224,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(303, 239);
+            this.textBox5.Location = new System.Drawing.Point(303, 208);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(438, 20);
             this.textBox5.TabIndex = 27;
@@ -254,7 +234,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label1.Location = new System.Drawing.Point(126, 239);
+            this.label1.Location = new System.Drawing.Point(126, 208);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 17);
             this.label1.TabIndex = 26;
@@ -262,7 +242,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(303, 270);
+            this.textBox6.Location = new System.Drawing.Point(303, 239);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(438, 20);
             this.textBox6.TabIndex = 29;
@@ -272,7 +252,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label2.Location = new System.Drawing.Point(126, 270);
+            this.label2.Location = new System.Drawing.Point(126, 239);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 17);
             this.label2.TabIndex = 28;
@@ -284,7 +264,7 @@
             this.btnCancel.FlatAppearance.BorderSize = 0;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.Image")));
-            this.btnCancel.Location = new System.Drawing.Point(456, 318);
+            this.btnCancel.Location = new System.Drawing.Point(459, 325);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(68, 52);
             this.btnCancel.TabIndex = 31;
@@ -296,7 +276,7 @@
             this.btnSiguiente.FlatAppearance.BorderSize = 0;
             this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSiguiente.Image = ((System.Drawing.Image)(resources.GetObject("btnSiguiente.Image")));
-            this.btnSiguiente.Location = new System.Drawing.Point(293, 318);
+            this.btnSiguiente.Location = new System.Drawing.Point(296, 325);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(68, 52);
             this.btnSiguiente.TabIndex = 30;
@@ -370,9 +350,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
@@ -396,14 +374,12 @@
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label1;

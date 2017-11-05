@@ -50,6 +50,12 @@
     <Compile Include="FormContenedor.Designer.cs">
       <DependentUpon>FormContenedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListarEnvios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarEnvios.Designer.cs">
+      <DependentUpon>ListarEnvios.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,12 @@
     <Compile Include="MenuSucursal.Designer.cs">
       <DependentUpon>MenuSucursal.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModificarEnvio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarEnvio.Designer.cs">
+      <DependentUpon>ModificarEnvio.cs</DependentUpon>
+    </Compile>
     <Compile Include="NuevoEnvio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +120,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormContenedor.resx">
       <DependentUpon>FormContenedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarEnvios.resx">
+      <DependentUpon>ListarEnvios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuClientes.resx">
       <DependentUpon>MenuClientes.cs</DependentUpon>
@@ -129,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuSucursal.resx">
       <DependentUpon>MenuSucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarEnvio.resx">
+      <DependentUpon>ModificarEnvio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NuevoEnvio.resx">
       <DependentUpon>NuevoEnvio.cs</DependentUpon>

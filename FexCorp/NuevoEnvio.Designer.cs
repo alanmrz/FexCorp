@@ -201,9 +201,9 @@
             this.label4.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.label4.Location = new System.Drawing.Point(141, 226);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 17);
+            this.label4.Size = new System.Drawing.Size(66, 17);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Direccion:";
+            this.label4.Text = "Telefono:";
             // 
             // label5
             // 
@@ -334,7 +334,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label8.Location = new System.Drawing.Point(141, 260);
+            this.label8.Location = new System.Drawing.Point(141, 255);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(41, 17);
             this.label8.TabIndex = 20;
