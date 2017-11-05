@@ -172,6 +172,7 @@
             this.btnBajaCliente.Text = "Eiminar Cliente";
             this.btnBajaCliente.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnBajaCliente.UseVisualStyleBackColor = false;
+            this.btnBajaCliente.Click += new System.EventHandler(this.btnBajaCliente_Click);
             // 
             // MenuClientes
             // 
@@ -186,6 +187,7 @@
             this.Name = "MenuClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MenuClientes";
+            this.Load += new System.EventHandler(this.MenuClientes_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

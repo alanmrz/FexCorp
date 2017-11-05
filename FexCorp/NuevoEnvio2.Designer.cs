@@ -358,7 +358,9 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "NuevoEnvio2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "NuevoEnvio2";
+            this.Load += new System.EventHandler(this.NuevoEnvio2_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

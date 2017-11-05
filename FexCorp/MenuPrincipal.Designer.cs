@@ -45,7 +45,7 @@
             this.btnConfig.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfig.ForeColor = System.Drawing.Color.RoyalBlue;
             this.btnConfig.Image = ((System.Drawing.Image)(resources.GetObject("btnConfig.Image")));
-            this.btnConfig.Location = new System.Drawing.Point(441, 152);
+            this.btnConfig.Location = new System.Drawing.Point(539, 215);
             this.btnConfig.Name = "btnConfig";
             this.btnConfig.Size = new System.Drawing.Size(177, 112);
             this.btnConfig.TabIndex = 13;
@@ -62,7 +62,7 @@
             this.btnSucursales.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSucursales.ForeColor = System.Drawing.Color.RoyalBlue;
             this.btnSucursales.Image = ((System.Drawing.Image)(resources.GetObject("btnSucursales.Image")));
-            this.btnSucursales.Location = new System.Drawing.Point(235, 12);
+            this.btnSucursales.Location = new System.Drawing.Point(333, 75);
             this.btnSucursales.Name = "btnSucursales";
             this.btnSucursales.Size = new System.Drawing.Size(177, 112);
             this.btnSucursales.TabIndex = 12;
@@ -79,7 +79,7 @@
             this.btnSeguimiento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeguimiento.ForeColor = System.Drawing.Color.RoyalBlue;
             this.btnSeguimiento.Image = ((System.Drawing.Image)(resources.GetObject("btnSeguimiento.Image")));
-            this.btnSeguimiento.Location = new System.Drawing.Point(24, 152);
+            this.btnSeguimiento.Location = new System.Drawing.Point(122, 215);
             this.btnSeguimiento.Name = "btnSeguimiento";
             this.btnSeguimiento.Size = new System.Drawing.Size(177, 112);
             this.btnSeguimiento.TabIndex = 11;
@@ -96,7 +96,7 @@
             this.btnEnvios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnvios.ForeColor = System.Drawing.Color.RoyalBlue;
             this.btnEnvios.Image = ((System.Drawing.Image)(resources.GetObject("btnEnvios.Image")));
-            this.btnEnvios.Location = new System.Drawing.Point(24, 12);
+            this.btnEnvios.Location = new System.Drawing.Point(122, 75);
             this.btnEnvios.Name = "btnEnvios";
             this.btnEnvios.Size = new System.Drawing.Size(177, 112);
             this.btnEnvios.TabIndex = 10;
@@ -113,7 +113,7 @@
             this.btnClientes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClientes.ForeColor = System.Drawing.Color.RoyalBlue;
             this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
-            this.btnClientes.Location = new System.Drawing.Point(441, 12);
+            this.btnClientes.Location = new System.Drawing.Point(539, 75);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(177, 112);
             this.btnClientes.TabIndex = 8;
@@ -130,7 +130,7 @@
             this.btnReportes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportes.ForeColor = System.Drawing.Color.RoyalBlue;
             this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
-            this.btnReportes.Location = new System.Drawing.Point(235, 152);
+            this.btnReportes.Location = new System.Drawing.Point(333, 215);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(177, 112);
             this.btnReportes.TabIndex = 14;
@@ -144,7 +144,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(646, 292);
+            this.ClientSize = new System.Drawing.Size(768, 398);
             this.Controls.Add(this.btnReportes);
             this.Controls.Add(this.btnConfig);
             this.Controls.Add(this.btnSucursales);
@@ -153,8 +153,9 @@
             this.Controls.Add(this.btnClientes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuPrincipal";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MenuPrincipal";
+            this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.ResumeLayout(false);
 
         }

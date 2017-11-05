@@ -16,5 +16,11 @@ namespace FexCorp
         {
             InitializeComponent();
         }
+
+        private void MenuReportes_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Size = new Size(768, 398);
+        }
     }
 }

@@ -240,6 +240,7 @@
             this.Name = "MenuSeguimiento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MenuSeguimiento";
+            this.Load += new System.EventHandler(this.MenuSeguimiento_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

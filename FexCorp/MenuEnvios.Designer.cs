@@ -174,6 +174,7 @@
             this.btnListaTodos.Text = "Listar Envios";
             this.btnListaTodos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnListaTodos.UseVisualStyleBackColor = false;
+            this.btnListaTodos.Click += new System.EventHandler(this.btnListaTodos_Click);
             // 
             // btnModificar
             // 
@@ -190,6 +191,7 @@
             this.btnModificar.Text = "Modificar Envio";
             this.btnModificar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // MenuEnvios
             // 

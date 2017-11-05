@@ -21,14 +21,30 @@ namespace FexCorp
         {
             NuevoEnvio frm = new NuevoEnvio();
             frm.MdiParent = this.ParentForm;
-            this.Close();
             frm.Show();
+            this.Close();
         }
 
         private void MenuEnvios_Load(object sender, EventArgs e)
         {
             this.FormBorderStyle = FormBorderStyle.None;
             this.Size = new Size(768, 398);
+        }
+
+        private void btnListaTodos_Click(object sender, EventArgs e)
+        {
+            ListarEnvios frm = new ListarEnvios();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            ModificarEnvio frm = new ModificarEnvio();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
         }
     }
 }

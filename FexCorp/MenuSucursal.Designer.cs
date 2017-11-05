@@ -204,6 +204,7 @@
             this.Name = "MenuSucursal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MenuSucursal";
+            this.Load += new System.EventHandler(this.MenuSucursal_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

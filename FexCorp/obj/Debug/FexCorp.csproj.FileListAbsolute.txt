@@ -17,3 +17,5 @@ C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.MenuConfiguracion.resou
 C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.NuevoEnvio.resources
 C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.NuevoEnvio2.resources
 C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.ListarEnvios.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.EliminarCliente.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.ModificarEnvio.resources

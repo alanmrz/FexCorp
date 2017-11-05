@@ -23,5 +23,13 @@ namespace FexCorp
             this.Size = new Size(768, 398);
         }
 
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            NuevoEnvio2 frm = new NuevoEnvio2();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
     }
 }

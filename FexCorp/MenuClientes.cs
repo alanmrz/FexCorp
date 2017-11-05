@@ -16,5 +16,19 @@ namespace FexCorp
         {
             InitializeComponent();
         }
+
+        private void MenuClientes_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Size = new Size(768, 398);
+        }
+
+        private void btnBajaCliente_Click(object sender, EventArgs e)
+        {
+            EliminarCliente frm = new EliminarCliente();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
     }
 }

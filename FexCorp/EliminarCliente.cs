@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace FexCorp
 {
-    public partial class MenuSucursal : Form
+    public partial class EliminarCliente : Form
     {
-        public MenuSucursal()
+        public EliminarCliente()
         {
             InitializeComponent();
         }
 
-        private void MenuSucursal_Load(object sender, EventArgs e)
+        private void EliminarCliente_Load(object sender, EventArgs e)
         {
             this.FormBorderStyle = FormBorderStyle.None;
             this.Size = new Size(768, 398);

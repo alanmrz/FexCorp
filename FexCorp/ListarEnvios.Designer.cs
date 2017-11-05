@@ -154,7 +154,7 @@
             // 
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(138, 208);
+            this.dataGridView1.Location = new System.Drawing.Point(146, 208);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(618, 178);
             this.dataGridView1.TabIndex = 4;
@@ -177,7 +177,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button1.Location = new System.Drawing.Point(283, 165);
+            this.button1.Location = new System.Drawing.Point(291, 165);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(138, 31);
             this.button1.TabIndex = 21;
@@ -186,7 +186,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(283, 131);
+            this.textBox6.Location = new System.Drawing.Point(291, 131);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(446, 20);
             this.textBox6.TabIndex = 33;
@@ -196,7 +196,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label2.Location = new System.Drawing.Point(135, 135);
+            this.label2.Location = new System.Drawing.Point(143, 135);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 17);
             this.label2.TabIndex = 32;
@@ -204,7 +204,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(283, 100);
+            this.textBox5.Location = new System.Drawing.Point(291, 100);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(446, 20);
             this.textBox5.TabIndex = 31;
@@ -214,7 +214,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label1.Location = new System.Drawing.Point(135, 104);
+            this.label1.Location = new System.Drawing.Point(143, 104);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 17);
             this.label1.TabIndex = 30;
@@ -222,7 +222,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(283, 69);
+            this.textBox1.Location = new System.Drawing.Point(291, 69);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(446, 20);
             this.textBox1.TabIndex = 35;
@@ -232,7 +232,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label3.Location = new System.Drawing.Point(135, 70);
+            this.label3.Location = new System.Drawing.Point(143, 70);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(122, 17);
             this.label3.TabIndex = 34;
@@ -245,7 +245,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button2.Location = new System.Drawing.Point(467, 165);
+            this.button2.Location = new System.Drawing.Point(475, 165);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 31);
             this.button2.TabIndex = 36;
@@ -272,6 +272,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ListarEnvios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "ListarEnvios";
             this.Load += new System.EventHandler(this.ListarEnvios_Load);
             this.panel1.ResumeLayout(false);

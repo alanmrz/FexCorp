@@ -160,7 +160,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(160, 117);
+            this.dataGridView1.Location = new System.Drawing.Point(160, 124);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(596, 165);
             this.dataGridView1.TabIndex = 38;
@@ -170,7 +170,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label1.Location = new System.Drawing.Point(157, 67);
+            this.label1.Location = new System.Drawing.Point(157, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 17);
             this.label1.TabIndex = 39;
@@ -183,7 +183,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button1.Location = new System.Drawing.Point(600, 62);
+            this.button1.Location = new System.Drawing.Point(600, 69);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 25);
             this.button1.TabIndex = 40;
@@ -193,7 +193,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(301, 64);
+            this.textBox1.Location = new System.Drawing.Point(301, 71);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(272, 20);
             this.textBox1.TabIndex = 41;
@@ -205,7 +205,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button2.Location = new System.Drawing.Point(390, 321);
+            this.button2.Location = new System.Drawing.Point(390, 328);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 31);
             this.button2.TabIndex = 42;
@@ -227,6 +227,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ModificarEnvio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "ModificarEnvio";
             this.Load += new System.EventHandler(this.ModificarEnvio_Load);
             this.panel1.ResumeLayout(false);
