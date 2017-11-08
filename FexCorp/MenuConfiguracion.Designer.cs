@@ -141,6 +141,7 @@
             this.btnHome.Size = new System.Drawing.Size(68, 52);
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // btnEliminar
             // 
@@ -204,6 +205,7 @@
             this.Name = "MenuConfiguracion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MenuConfiguracion";
+            this.Load += new System.EventHandler(this.MenuConfiguracion_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

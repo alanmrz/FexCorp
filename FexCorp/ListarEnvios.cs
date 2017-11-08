@@ -23,5 +23,13 @@ namespace FexCorp
             this.Size = new Size(768, 398);
         }
 
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal frm = new MenuPrincipal();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
     }
 }
