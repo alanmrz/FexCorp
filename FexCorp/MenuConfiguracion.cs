@@ -30,5 +30,29 @@ namespace FexCorp
             this.FormBorderStyle = FormBorderStyle.None;
             this.Size = new Size(768, 398);
         }
+
+        private void btnBk_Click(object sender, EventArgs e)
+        {
+            BackUp frm = new BackUp();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnRestaurar_Click(object sender, EventArgs e)
+        {
+            Restaurar frm = new Restaurar();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Eliminar frm = new Eliminar();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
     }
 }

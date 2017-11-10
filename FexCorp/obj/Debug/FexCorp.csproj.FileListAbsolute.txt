@@ -22,3 +22,6 @@ C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.ModificarEnvio.resource
 C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.SeguimientoEnvio.resources
 C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.EstadoEnvios.resources
 C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.ModificarSeguimiento.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.BackUp.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.Restaurar.resources
+C:\Users\Fede_\Desktop\FexCorp\FexCorp\obj\Debug\FexCorp.Eliminar.resources

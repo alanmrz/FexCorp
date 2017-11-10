@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace FexCorp
 {
-    public partial class SeguimientoEnvio : Form
+    public partial class Restaurar : Form
     {
-        public SeguimientoEnvio()
+        public Restaurar()
         {
             InitializeComponent();
         }
 
-        private void SeguimientoEnvio_Load(object sender, EventArgs e)
+        private void Restaurar_Load(object sender, EventArgs e)
         {
             this.FormBorderStyle = FormBorderStyle.None;
             this.Size = new Size(768, 398);

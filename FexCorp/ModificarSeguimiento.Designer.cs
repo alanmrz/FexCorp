@@ -199,6 +199,7 @@
             this.btnHome.Size = new System.Drawing.Size(68, 52);
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // ModificarSeguimiento
             // 
@@ -214,6 +215,7 @@
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ModificarSeguimiento";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "ModificarSeguimiento";
             this.Load += new System.EventHandler(this.ModificarSeguimiento_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

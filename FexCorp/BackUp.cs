@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace FexCorp
 {
-    public partial class SeguimientoEnvio : Form
+    public partial class BackUp : Form
     {
-        public SeguimientoEnvio()
+        public BackUp()
         {
             InitializeComponent();
-        }
-
-        private void SeguimientoEnvio_Load(object sender, EventArgs e)
-        {
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.Size = new Size(768, 398);
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -29,6 +23,12 @@ namespace FexCorp
             frm.MdiParent = this.ParentForm;
             frm.Show();
             this.Close();
+        }
+
+        private void BackUp_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Size = new Size(768, 398);
         }
     }
 }

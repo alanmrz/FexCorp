@@ -158,6 +158,7 @@
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnRestaurar
             // 
@@ -174,6 +175,7 @@
             this.btnRestaurar.Text = "Restaurar";
             this.btnRestaurar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnRestaurar.UseVisualStyleBackColor = false;
+            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
             // 
             // btnBk
             // 
@@ -190,6 +192,7 @@
             this.btnBk.Text = "Back Up";
             this.btnBk.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnBk.UseVisualStyleBackColor = false;
+            this.btnBk.Click += new System.EventHandler(this.btnBk_Click);
             // 
             // MenuConfiguracion
             // 

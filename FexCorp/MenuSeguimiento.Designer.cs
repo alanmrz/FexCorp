@@ -158,6 +158,7 @@
             this.btnModificarEst.Text = "Modificar Estado";
             this.btnModificarEst.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnModificarEst.UseVisualStyleBackColor = false;
+            this.btnModificarEst.Click += new System.EventHandler(this.btnModificarEst_Click);
             // 
             // btnEstadoEnvios
             // 
@@ -174,6 +175,7 @@
             this.btnEstadoEnvios.Text = "Estado de Envios";
             this.btnEstadoEnvios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEstadoEnvios.UseVisualStyleBackColor = false;
+            this.btnEstadoEnvios.Click += new System.EventHandler(this.btnEstadoEnvios_Click);
             // 
             // btnUnEnvio
             // 
@@ -190,6 +192,7 @@
             this.btnUnEnvio.Text = "Seguimiento Envio\r\n";
             this.btnUnEnvio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUnEnvio.UseVisualStyleBackColor = false;
+            this.btnUnEnvio.Click += new System.EventHandler(this.btnUnEnvio_Click);
             // 
             // MenuSeguimiento
             // 

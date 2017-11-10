@@ -30,5 +30,29 @@ namespace FexCorp
             frm.Show();
             this.Close();
         }
+
+        private void btnUnEnvio_Click(object sender, EventArgs e)
+        {
+            SeguimientoEnvio frm = new SeguimientoEnvio();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnEstadoEnvios_Click(object sender, EventArgs e)
+        {
+            EstadoEnvios frm = new EstadoEnvios();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnModificarEst_Click(object sender, EventArgs e)
+        {
+            ModificarSeguimiento frm = new ModificarSeguimiento();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
     }
 }
