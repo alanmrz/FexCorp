@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormContenedor));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnMinimizar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,6 +58,17 @@
             this.panel1.Size = new System.Drawing.Size(836, 74);
             this.panel1.TabIndex = 4;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.label1.Location = new System.Drawing.Point(12, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(213, 18);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "FexCorp - Gestion de Envios";
+            // 
             // btnMinimizar
             // 
             this.btnMinimizar.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
@@ -81,17 +92,6 @@
             this.btnCerrar.TabIndex = 0;
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.label1.Location = new System.Drawing.Point(12, 52);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 18);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "FexCorp - Gestion de Envios";
             // 
             // FormContenedor
             // 

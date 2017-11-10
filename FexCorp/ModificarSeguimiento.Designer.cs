@@ -1,6 +1,6 @@
 ﻿namespace FexCorp
 {
-    partial class MenuSeguimiento
+    partial class ModificarSeguimiento
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuSeguimiento));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModificarSeguimiento));
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnConfig = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
@@ -36,11 +41,64 @@
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.btnModificarEst = new System.Windows.Forms.Button();
-            this.btnEstadoEnvios = new System.Windows.Forms.Button();
-            this.btnUnEnvio = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.button2.Location = new System.Drawing.Point(378, 335);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(138, 31);
+            this.button2.TabIndex = 47;
+            this.button2.Text = "Modificar";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(326, 88);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(272, 20);
+            this.textBox1.TabIndex = 46;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnBuscar.FlatAppearance.BorderSize = 0;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnBuscar.Location = new System.Drawing.Point(625, 86);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(100, 25);
+            this.btnBuscar.TabIndex = 45;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label1.Location = new System.Drawing.Point(182, 91);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 17);
+            this.label1.TabIndex = 44;
+            this.label1.Text = "Codigo de Envio:";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(159, 131);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(596, 165);
+            this.dataGridView1.TabIndex = 43;
             // 
             // panel1
             // 
@@ -55,7 +113,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(68, 398);
-            this.panel1.TabIndex = 4;
+            this.panel1.TabIndex = 48;
             // 
             // btnConfig
             // 
@@ -141,78 +199,37 @@
             this.btnHome.Size = new System.Drawing.Size(68, 52);
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // btnModificarEst
-            // 
-            this.btnModificarEst.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnModificarEst.FlatAppearance.BorderSize = 0;
-            this.btnModificarEst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModificarEst.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificarEst.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btnModificarEst.Image = ((System.Drawing.Image)(resources.GetObject("btnModificarEst.Image")));
-            this.btnModificarEst.Location = new System.Drawing.Point(579, 136);
-            this.btnModificarEst.Name = "btnModificarEst";
-            this.btnModificarEst.Size = new System.Drawing.Size(177, 112);
-            this.btnModificarEst.TabIndex = 15;
-            this.btnModificarEst.Text = "Modificar Estado";
-            this.btnModificarEst.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnModificarEst.UseVisualStyleBackColor = false;
-            // 
-            // btnEstadoEnvios
-            // 
-            this.btnEstadoEnvios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnEstadoEnvios.FlatAppearance.BorderSize = 0;
-            this.btnEstadoEnvios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstadoEnvios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstadoEnvios.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btnEstadoEnvios.Image = ((System.Drawing.Image)(resources.GetObject("btnEstadoEnvios.Image")));
-            this.btnEstadoEnvios.Location = new System.Drawing.Point(381, 136);
-            this.btnEstadoEnvios.Name = "btnEstadoEnvios";
-            this.btnEstadoEnvios.Size = new System.Drawing.Size(177, 112);
-            this.btnEstadoEnvios.TabIndex = 14;
-            this.btnEstadoEnvios.Text = "Estado de Envios";
-            this.btnEstadoEnvios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnEstadoEnvios.UseVisualStyleBackColor = false;
-            // 
-            // btnUnEnvio
-            // 
-            this.btnUnEnvio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnUnEnvio.FlatAppearance.BorderSize = 0;
-            this.btnUnEnvio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUnEnvio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUnEnvio.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btnUnEnvio.Image = ((System.Drawing.Image)(resources.GetObject("btnUnEnvio.Image")));
-            this.btnUnEnvio.Location = new System.Drawing.Point(184, 136);
-            this.btnUnEnvio.Name = "btnUnEnvio";
-            this.btnUnEnvio.Size = new System.Drawing.Size(177, 112);
-            this.btnUnEnvio.TabIndex = 11;
-            this.btnUnEnvio.Text = "Seguimiento Envio\r\n";
-            this.btnUnEnvio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnUnEnvio.UseVisualStyleBackColor = false;
-            // 
-            // MenuSeguimiento
+            // ModificarSeguimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(768, 398);
-            this.Controls.Add(this.btnModificarEst);
-            this.Controls.Add(this.btnEstadoEnvios);
-            this.Controls.Add(this.btnUnEnvio);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "MenuSeguimiento";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "MenuSeguimiento";
-            this.Load += new System.EventHandler(this.MenuSeguimiento_Load);
+            this.Name = "ModificarSeguimiento";
+            this.Text = "ModificarSeguimiento";
+            this.Load += new System.EventHandler(this.ModificarSeguimiento_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnConfig;
         private System.Windows.Forms.Button btnReportes;
@@ -220,8 +237,5 @@
         private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnEnvios;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button btnModificarEst;
-        private System.Windows.Forms.Button btnEstadoEnvios;
-        private System.Windows.Forms.Button btnUnEnvio;
     }
 }
