@@ -1,6 +1,6 @@
 ﻿namespace FexCorp
 {
-    partial class EstadoEnvios
+    partial class Reporte_1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EstadoEnvios));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reporte_1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnConfig = new System.Windows.Forms.Button();
-            this.btnReportes = new System.Windows.Forms.Button();
+            this.btnSeguimiento = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnEnviados = new System.Windows.Forms.Button();
-            this.btnEntregados = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -48,7 +46,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
             this.panel1.Controls.Add(this.btnConfig);
-            this.panel1.Controls.Add(this.btnReportes);
+            this.panel1.Controls.Add(this.btnSeguimiento);
             this.panel1.Controls.Add(this.btnClientes);
             this.panel1.Controls.Add(this.btnSucursal);
             this.panel1.Controls.Add(this.btnEnvios);
@@ -57,7 +55,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(68, 398);
-            this.panel1.TabIndex = 5;
+            this.panel1.TabIndex = 6;
             // 
             // btnConfig
             // 
@@ -73,19 +71,19 @@
             this.btnConfig.TabIndex = 9;
             this.btnConfig.UseVisualStyleBackColor = false;
             // 
-            // btnReportes
+            // btnSeguimiento
             // 
-            this.btnReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnReportes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReportes.FlatAppearance.BorderSize = 0;
-            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
-            this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnReportes.Location = new System.Drawing.Point(0, 208);
-            this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(68, 52);
-            this.btnReportes.TabIndex = 8;
-            this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnSeguimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnSeguimiento.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSeguimiento.FlatAppearance.BorderSize = 0;
+            this.btnSeguimiento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeguimiento.Image = ((System.Drawing.Image)(resources.GetObject("btnSeguimiento.Image")));
+            this.btnSeguimiento.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSeguimiento.Location = new System.Drawing.Point(0, 208);
+            this.btnSeguimiento.Name = "btnSeguimiento";
+            this.btnSeguimiento.Size = new System.Drawing.Size(68, 52);
+            this.btnSeguimiento.TabIndex = 7;
+            this.btnSeguimiento.UseVisualStyleBackColor = false;
             // 
             // btnClientes
             // 
@@ -145,65 +143,39 @@
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(156, 77);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(600, 286);
-            this.dataGridView1.TabIndex = 6;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label1.Location = new System.Drawing.Point(368, 30);
+            this.label1.Location = new System.Drawing.Point(291, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 22);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Estados de Envios";
+            this.label1.Size = new System.Drawing.Size(376, 22);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Cantidad de envios para cada sucursal";
             // 
-            // btnEnviados
+            // dataGridView1
             // 
-            this.btnEnviados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnEnviados.FlatAppearance.BorderSize = 0;
-            this.btnEnviados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnviados.Image = ((System.Drawing.Image)(resources.GetObject("btnEnviados.Image")));
-            this.btnEnviados.Location = new System.Drawing.Point(762, 77);
-            this.btnEnviados.Name = "btnEnviados";
-            this.btnEnviados.Size = new System.Drawing.Size(41, 42);
-            this.btnEnviados.TabIndex = 17;
-            this.btnEnviados.UseVisualStyleBackColor = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(160, 84);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(600, 286);
+            this.dataGridView1.TabIndex = 8;
             // 
-            // btnEntregados
-            // 
-            this.btnEntregados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnEntregados.FlatAppearance.BorderSize = 0;
-            this.btnEntregados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEntregados.Image = ((System.Drawing.Image)(resources.GetObject("btnEntregados.Image")));
-            this.btnEntregados.Location = new System.Drawing.Point(762, 125);
-            this.btnEntregados.Name = "btnEntregados";
-            this.btnEntregados.Size = new System.Drawing.Size(41, 42);
-            this.btnEntregados.TabIndex = 19;
-            this.btnEntregados.UseVisualStyleBackColor = false;
-            // 
-            // EstadoEnvios
+            // Reporte_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(815, 398);
-            this.Controls.Add(this.btnEntregados);
-            this.Controls.Add(this.btnEnviados);
+            this.ClientSize = new System.Drawing.Size(768, 398);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "EstadoEnvios";
+            this.Name = "Reporte_1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "EstadoEnvios";
-            this.Load += new System.EventHandler(this.EstadoEnvios_Load);
+            this.Text = "Reporte_1";
+            this.Load += new System.EventHandler(this.Reporte_1_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -215,14 +187,12 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnConfig;
-        private System.Windows.Forms.Button btnReportes;
+        private System.Windows.Forms.Button btnSeguimiento;
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnEnvios;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnEnviados;
-        private System.Windows.Forms.Button btnEntregados;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -158,6 +158,7 @@
             this.btnRep3.Text = "Reporte 3";
             this.btnRep3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnRep3.UseVisualStyleBackColor = false;
+            this.btnRep3.Click += new System.EventHandler(this.btnRep3_Click);
             // 
             // btnRep2
             // 
@@ -174,6 +175,7 @@
             this.btnRep2.Text = "Reporte 2";
             this.btnRep2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnRep2.UseVisualStyleBackColor = false;
+            this.btnRep2.Click += new System.EventHandler(this.btnRep2_Click);
             // 
             // btnRep1
             // 
@@ -190,6 +192,7 @@
             this.btnRep1.Text = "Reporte 1";
             this.btnRep1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnRep1.UseVisualStyleBackColor = false;
+            this.btnRep1.Click += new System.EventHandler(this.btnRep1_Click);
             // 
             // MenuReportes
             // 

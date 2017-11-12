@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace FexCorp
 {
-    public partial class EstadoEnvios : Form
+    public partial class Reporte_2 : Form
     {
-        public EstadoEnvios()
+        public Reporte_2()
         {
             InitializeComponent();
         }
 
-        private void EstadoEnvios_Load(object sender, EventArgs e)
+        private void Reporte_2_Load(object sender, EventArgs e)
         {
             this.FormBorderStyle = FormBorderStyle.None;
-            this.Size = new Size(815, 398);
+            this.Size = new Size(768, 398);
         }
 
         private void btnHome_Click(object sender, EventArgs e)

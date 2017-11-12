@@ -30,5 +30,29 @@ namespace FexCorp
             frm.Show();
             this.Close();
         }
+
+        private void btnRep1_Click(object sender, EventArgs e)
+        {
+            Reporte_1 frm = new Reporte_1();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnRep2_Click(object sender, EventArgs e)
+        {
+            Reporte_2 frm = new Reporte_2();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnRep3_Click(object sender, EventArgs e)
+        {
+            Reporte_3 frm = new Reporte_3();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
     }
 }
