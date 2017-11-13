@@ -158,6 +158,7 @@
             this.btnAgreSucursal.Text = "Agregar Sucursal";
             this.btnAgreSucursal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgreSucursal.UseVisualStyleBackColor = false;
+            this.btnAgreSucursal.Click += new System.EventHandler(this.btnAgreSucursal_Click);
             // 
             // btnListaTodos
             // 
@@ -174,6 +175,7 @@
             this.btnListaTodos.Text = "Listar Sucursales";
             this.btnListaTodos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnListaTodos.UseVisualStyleBackColor = false;
+            this.btnListaTodos.Click += new System.EventHandler(this.btnListaTodos_Click);
             // 
             // btnBaja
             // 
@@ -190,6 +192,7 @@
             this.btnBaja.Text = "Dar de Baja Sucursal";
             this.btnBaja.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnBaja.UseVisualStyleBackColor = false;
+            this.btnBaja.Click += new System.EventHandler(this.btnBaja_Click);
             // 
             // MenuSucursal
             // 

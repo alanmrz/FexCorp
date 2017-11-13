@@ -30,5 +30,29 @@ namespace FexCorp
             frm.Show();
             this.Close();
         }
+
+        private void btnBaja_Click(object sender, EventArgs e)
+        {
+            EliminarSucursal frm = new EliminarSucursal();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnListaTodos_Click(object sender, EventArgs e)
+        {
+            ListarSucursales frm = new ListarSucursales();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnAgreSucursal_Click(object sender, EventArgs e)
+        {
+            NuevaSucursal frm = new NuevaSucursal();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
     }
 }

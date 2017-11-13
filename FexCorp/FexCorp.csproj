@@ -62,6 +62,12 @@
     <Compile Include="EliminarCliente.Designer.cs">
       <DependentUpon>EliminarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="EliminarSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarSucursal.Designer.cs">
+      <DependentUpon>EliminarSucursal.cs</DependentUpon>
+    </Compile>
     <Compile Include="EstadoEnvios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,11 +80,23 @@
     <Compile Include="FormContenedor.Designer.cs">
       <DependentUpon>FormContenedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarClientes.Designer.cs">
+      <DependentUpon>ListarClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListarEnvios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListarEnvios.Designer.cs">
       <DependentUpon>ListarEnvios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListarSucursales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarSucursales.Designer.cs">
+      <DependentUpon>ListarSucursales.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuClientes.cs">
       <SubType>Form</SubType>
@@ -134,6 +152,12 @@
     <Compile Include="ModificarSeguimiento.Designer.cs">
       <DependentUpon>ModificarSeguimiento.cs</DependentUpon>
     </Compile>
+    <Compile Include="NuevaSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaSucursal.Designer.cs">
+      <DependentUpon>NuevaSucursal.cs</DependentUpon>
+    </Compile>
     <Compile Include="NuevoEnvio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,14 +211,23 @@
     <EmbeddedResource Include="EliminarCliente.resx">
       <DependentUpon>EliminarCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EliminarSucursal.resx">
+      <DependentUpon>EliminarSucursal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EstadoEnvios.resx">
       <DependentUpon>EstadoEnvios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormContenedor.resx">
       <DependentUpon>FormContenedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListarClientes.resx">
+      <DependentUpon>ListarClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListarEnvios.resx">
       <DependentUpon>ListarEnvios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarSucursales.resx">
+      <DependentUpon>ListarSucursales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuClientes.resx">
       <DependentUpon>MenuClientes.cs</DependentUpon>
@@ -222,6 +255,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ModificarSeguimiento.resx">
       <DependentUpon>ModificarSeguimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaSucursal.resx">
+      <DependentUpon>NuevaSucursal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NuevoEnvio.resx">
       <DependentUpon>NuevoEnvio.cs</DependentUpon>

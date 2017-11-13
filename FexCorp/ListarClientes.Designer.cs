@@ -1,6 +1,6 @@
 ﻿namespace FexCorp
 {
-    partial class MenuClientes
+    partial class ListarClientes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuClientes));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListarClientes));
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnConfig = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
@@ -36,10 +42,76 @@
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.btnListaTodos = new System.Windows.Forms.Button();
-            this.btnBajaCliente = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.button2.Location = new System.Drawing.Point(469, 125);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(138, 31);
+            this.button2.TabIndex = 43;
+            this.button2.Text = "Mostrar Todos ";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(293, 69);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(446, 20);
+            this.textBox1.TabIndex = 42;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label3.Location = new System.Drawing.Point(168, 69);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 17);
+            this.label3.TabIndex = 41;
+            this.label3.Text = "DNI Cliente:";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.button1.Location = new System.Drawing.Point(293, 125);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(138, 31);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "Filtrar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btnBack
+            // 
+            this.btnBack.FlatAppearance.BorderSize = 0;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
+            this.btnBack.Location = new System.Drawing.Point(96, 24);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(34, 28);
+            this.btnBack.TabIndex = 39;
+            this.btnBack.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(148, 191);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(618, 178);
+            this.dataGridView1.TabIndex = 38;
             // 
             // panel1
             // 
@@ -54,7 +126,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(68, 398);
-            this.panel1.TabIndex = 3;
+            this.panel1.TabIndex = 44;
             // 
             // btnConfig
             // 
@@ -140,63 +212,41 @@
             this.btnHome.Size = new System.Drawing.Size(68, 52);
             this.btnHome.TabIndex = 1;
             this.btnHome.UseVisualStyleBackColor = false;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click_1);
             // 
-            // btnListaTodos
-            // 
-            this.btnListaTodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnListaTodos.FlatAppearance.BorderSize = 0;
-            this.btnListaTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnListaTodos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnListaTodos.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btnListaTodos.Image = ((System.Drawing.Image)(resources.GetObject("btnListaTodos.Image")));
-            this.btnListaTodos.Location = new System.Drawing.Point(246, 142);
-            this.btnListaTodos.Name = "btnListaTodos";
-            this.btnListaTodos.Size = new System.Drawing.Size(177, 112);
-            this.btnListaTodos.TabIndex = 12;
-            this.btnListaTodos.Text = "Listar Clientes";
-            this.btnListaTodos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnListaTodos.UseVisualStyleBackColor = false;
-            this.btnListaTodos.Click += new System.EventHandler(this.btnListaTodos_Click);
-            // 
-            // btnBajaCliente
-            // 
-            this.btnBajaCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnBajaCliente.FlatAppearance.BorderSize = 0;
-            this.btnBajaCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBajaCliente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBajaCliente.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btnBajaCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnBajaCliente.Image")));
-            this.btnBajaCliente.Location = new System.Drawing.Point(485, 142);
-            this.btnBajaCliente.Name = "btnBajaCliente";
-            this.btnBajaCliente.Size = new System.Drawing.Size(177, 112);
-            this.btnBajaCliente.TabIndex = 11;
-            this.btnBajaCliente.Text = "Eiminar Cliente";
-            this.btnBajaCliente.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnBajaCliente.UseVisualStyleBackColor = false;
-            this.btnBajaCliente.Click += new System.EventHandler(this.btnBajaCliente_Click);
-            // 
-            // MenuClientes
+            // ListarClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(768, 398);
-            this.Controls.Add(this.btnListaTodos);
-            this.Controls.Add(this.btnBajaCliente);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "MenuClientes";
+            this.Name = "ListarClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "MenuClientes";
-            this.Load += new System.EventHandler(this.MenuClientes_Load);
+            this.Text = "ListarClientes";
+            this.Load += new System.EventHandler(this.ListarClientes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnConfig;
         private System.Windows.Forms.Button btnReportes;
@@ -204,7 +254,5 @@
         private System.Windows.Forms.Button btnSucursal;
         private System.Windows.Forms.Button btnEnvios;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button btnListaTodos;
-        private System.Windows.Forms.Button btnBajaCliente;
     }
 }

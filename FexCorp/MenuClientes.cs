@@ -38,5 +38,13 @@ namespace FexCorp
             frm.Show();
             this.Close();
         }
+
+        private void btnListaTodos_Click(object sender, EventArgs e)
+        {
+            ListarClientes frm = new ListarClientes();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
     }
 }
