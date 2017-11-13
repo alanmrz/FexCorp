@@ -127,18 +127,6 @@
         QmCC
 </value>
   </data>
-  <data name="btnBuscar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAXVJREFUSEvd
-        VLtKxEAUTamohY0P/JJ1d3FmIvsLgg8QWXRmFESw10awsvAvRCxs/AhtxMpC3LlJo3Yru8Fq9d7kNkZC
-        EkkKPXAhnJlzzsydzHj/E373eVZZOJYW7qSBVyph4FZoOOropxme9jug0ToaDrE+M2ogjVvl6eWgNGyg
-        wSg2snAhLLRaBqapfBO0cfySQ0ZCuzWWFYPS4QIKIzJQ2u0x/QMYus8hg/a2m2c6H8rAaSzElTOVCWmC
-        qyTEnTCVD9z+A4moLUxlQppwKQkI7pnKB22ZRJ3DlwmmMiHs22QSAO9M5aNMQHPrcap0QO0tqv2Qhe3N
-        0ZZJWPA37Ze+1cIGKyj8dtHEZm+MKnXRcBHBGcvKoeBTcU7fODfyd1yDpcWReuwobJh+7JD7oBA8u76y
-        bjEWVglaOZlTSLyIXfB5qDpQCJrXG0LtQfP476MQbOUyD1WHVEhUSwi1h8wpRJjghulqITU0MeC6cRCO
-        M/Xn4Xlf19hC45BXZDMAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="btnCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAa5JREFUaEPt

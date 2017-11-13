@@ -21,6 +21,7 @@ namespace FexCorp
         {
             this.FormBorderStyle = FormBorderStyle.None;
             this.Size = new Size(768, 398);
+            this.TTSucursal.SetToolTip(btnSucursal, "Sucursal");
         }
 
         private void btnHome_Click(object sender, EventArgs e)

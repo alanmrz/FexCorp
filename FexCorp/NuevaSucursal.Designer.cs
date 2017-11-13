@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NuevaSucursal));
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btnBack = new System.Windows.Forms.Button();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -70,18 +69,6 @@
             this.btnBack.Size = new System.Drawing.Size(34, 28);
             this.btnBack.TabIndex = 33;
             this.btnBack.UseVisualStyleBackColor = true;
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.btnBuscar.FlatAppearance.BorderSize = 0;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
-            this.btnBuscar.Location = new System.Drawing.Point(728, 133);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(34, 28);
-            this.btnBuscar.TabIndex = 32;
-            this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // btnCancel
             // 
@@ -293,7 +280,6 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.textBox4);
@@ -319,7 +305,6 @@
 
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.TextBox textBox4;
