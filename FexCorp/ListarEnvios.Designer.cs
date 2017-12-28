@@ -48,6 +48,11 @@
             this.TTSucursal = new System.Windows.Forms.ToolTip(this.components);
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.TTHome = new System.Windows.Forms.ToolTip(this.components);
+            this.TTClientes = new System.Windows.Forms.ToolTip(this.components);
+            this.TTSeguimiento = new System.Windows.Forms.ToolTip(this.components);
+            this.TTReportes = new System.Windows.Forms.ToolTip(this.components);
+            this.TTConfig = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -80,6 +85,7 @@
             this.btnConfig.Size = new System.Drawing.Size(68, 52);
             this.btnConfig.TabIndex = 9;
             this.btnConfig.UseVisualStyleBackColor = false;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
             // btnReportes
             // 
@@ -94,6 +100,7 @@
             this.btnReportes.Size = new System.Drawing.Size(68, 52);
             this.btnReportes.TabIndex = 8;
             this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // btnSeguimiento
             // 
@@ -108,6 +115,7 @@
             this.btnSeguimiento.Size = new System.Drawing.Size(68, 52);
             this.btnSeguimiento.TabIndex = 7;
             this.btnSeguimiento.UseVisualStyleBackColor = false;
+            this.btnSeguimiento.Click += new System.EventHandler(this.btnSeguimiento_Click);
             // 
             // btnClientes
             // 
@@ -122,6 +130,7 @@
             this.btnClientes.Size = new System.Drawing.Size(68, 52);
             this.btnClientes.TabIndex = 6;
             this.btnClientes.UseVisualStyleBackColor = false;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnSucursal
             // 
@@ -136,6 +145,7 @@
             this.btnSucursal.Size = new System.Drawing.Size(68, 52);
             this.btnSucursal.TabIndex = 5;
             this.btnSucursal.UseVisualStyleBackColor = false;
+            this.btnSucursal.Click += new System.EventHandler(this.btnSucursal_Click);
             // 
             // btnHome
             // 
@@ -242,6 +252,10 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // TTSucursal
+            // 
+            this.TTSucursal.BackColor = System.Drawing.Color.White;
+            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -257,6 +271,26 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(268, 21);
             this.comboBox2.TabIndex = 38;
+            // 
+            // TTHome
+            // 
+            this.TTHome.BackColor = System.Drawing.Color.White;
+            // 
+            // TTClientes
+            // 
+            this.TTClientes.BackColor = System.Drawing.Color.White;
+            // 
+            // TTSeguimiento
+            // 
+            this.TTSeguimiento.BackColor = System.Drawing.Color.White;
+            // 
+            // TTReportes
+            // 
+            this.TTReportes.BackColor = System.Drawing.Color.White;
+            // 
+            // TTConfig
+            // 
+            this.TTConfig.BackColor = System.Drawing.Color.White;
             // 
             // ListarEnvios
             // 
@@ -307,5 +341,10 @@
         private System.Windows.Forms.ToolTip TTSucursal;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ToolTip TTHome;
+        private System.Windows.Forms.ToolTip TTClientes;
+        private System.Windows.Forms.ToolTip TTSeguimiento;
+        private System.Windows.Forms.ToolTip TTReportes;
+        private System.Windows.Forms.ToolTip TTConfig;
     }
 }

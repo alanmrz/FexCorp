@@ -70,6 +70,7 @@
             this.btnConfig.Size = new System.Drawing.Size(68, 52);
             this.btnConfig.TabIndex = 9;
             this.btnConfig.UseVisualStyleBackColor = false;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
             // btnSeguimiento
             // 
@@ -84,6 +85,7 @@
             this.btnSeguimiento.Size = new System.Drawing.Size(68, 52);
             this.btnSeguimiento.TabIndex = 7;
             this.btnSeguimiento.UseVisualStyleBackColor = false;
+            this.btnSeguimiento.Click += new System.EventHandler(this.btnSeguimiento_Click);
             // 
             // btnClientes
             // 
@@ -98,6 +100,7 @@
             this.btnClientes.Size = new System.Drawing.Size(68, 52);
             this.btnClientes.TabIndex = 6;
             this.btnClientes.UseVisualStyleBackColor = false;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnSucursal
             // 
@@ -112,6 +115,7 @@
             this.btnSucursal.Size = new System.Drawing.Size(68, 52);
             this.btnSucursal.TabIndex = 5;
             this.btnSucursal.UseVisualStyleBackColor = false;
+            this.btnSucursal.Click += new System.EventHandler(this.btnSucursal_Click);
             // 
             // btnEnvios
             // 
@@ -126,6 +130,7 @@
             this.btnEnvios.Size = new System.Drawing.Size(68, 52);
             this.btnEnvios.TabIndex = 4;
             this.btnEnvios.UseVisualStyleBackColor = false;
+            this.btnEnvios.Click += new System.EventHandler(this.btnEnvios_Click);
             // 
             // btnHome
             // 

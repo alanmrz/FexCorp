@@ -17,6 +17,13 @@ namespace FexCorp
             InitializeComponent();
         }
 
+        private void BackUp_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Size = new Size(768, 398);
+        }
+
+        ///////////////////////////////////////////////////////////////////////////////////CONFIGURACION BOTONES
         private void btnHome_Click(object sender, EventArgs e)
         {
             MenuPrincipal frm = new MenuPrincipal();
@@ -25,10 +32,45 @@ namespace FexCorp
             this.Close();
         }
 
-        private void BackUp_Load(object sender, EventArgs e)
+        private void btnEnvios_Click(object sender, EventArgs e)
         {
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.Size = new Size(768, 398);
+            MenuEnvios frm = new MenuEnvios();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
         }
+
+        private void btnSucursal_Click(object sender, EventArgs e)
+        {
+            MenuSucursal frm = new MenuSucursal();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            MenuClientes frm = new MenuClientes();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnSeguimiento_Click(object sender, EventArgs e)
+        {
+            MenuSeguimiento frm = new MenuSeguimiento();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            MenuReportes frm = new MenuReportes();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }

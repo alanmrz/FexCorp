@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuSeguimiento));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnConfig = new System.Windows.Forms.Button();
@@ -39,6 +40,13 @@
             this.btnModificarEst = new System.Windows.Forms.Button();
             this.btnEstadoEnvios = new System.Windows.Forms.Button();
             this.btnUnEnvio = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TTHome = new System.Windows.Forms.ToolTip(this.components);
+            this.TTEnvios = new System.Windows.Forms.ToolTip(this.components);
+            this.TTSucursales = new System.Windows.Forms.ToolTip(this.components);
+            this.TTClientes = new System.Windows.Forms.ToolTip(this.components);
+            this.TTReportes = new System.Windows.Forms.ToolTip(this.components);
+            this.TTConfig = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +78,7 @@
             this.btnConfig.Size = new System.Drawing.Size(68, 52);
             this.btnConfig.TabIndex = 9;
             this.btnConfig.UseVisualStyleBackColor = false;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
             // btnReportes
             // 
@@ -84,6 +93,7 @@
             this.btnReportes.Size = new System.Drawing.Size(68, 52);
             this.btnReportes.TabIndex = 8;
             this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // btnClientes
             // 
@@ -98,6 +108,7 @@
             this.btnClientes.Size = new System.Drawing.Size(68, 52);
             this.btnClientes.TabIndex = 6;
             this.btnClientes.UseVisualStyleBackColor = false;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnSucursal
             // 
@@ -112,6 +123,7 @@
             this.btnSucursal.Size = new System.Drawing.Size(68, 52);
             this.btnSucursal.TabIndex = 5;
             this.btnSucursal.UseVisualStyleBackColor = false;
+            this.btnSucursal.Click += new System.EventHandler(this.btnSucursal_Click);
             // 
             // btnEnvios
             // 
@@ -126,6 +138,7 @@
             this.btnEnvios.Size = new System.Drawing.Size(68, 52);
             this.btnEnvios.TabIndex = 4;
             this.btnEnvios.UseVisualStyleBackColor = false;
+            this.btnEnvios.Click += new System.EventHandler(this.btnEnvios_Click);
             // 
             // btnHome
             // 
@@ -194,12 +207,24 @@
             this.btnUnEnvio.UseVisualStyleBackColor = false;
             this.btnUnEnvio.Click += new System.EventHandler(this.btnUnEnvio_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label1.Location = new System.Drawing.Point(367, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(201, 24);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Menú Seguimiento";
+            // 
             // MenuSeguimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(768, 398);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnModificarEst);
             this.Controls.Add(this.btnEstadoEnvios);
             this.Controls.Add(this.btnUnEnvio);
@@ -211,6 +236,7 @@
             this.Load += new System.EventHandler(this.MenuSeguimiento_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -226,5 +252,12 @@
         private System.Windows.Forms.Button btnModificarEst;
         private System.Windows.Forms.Button btnEstadoEnvios;
         private System.Windows.Forms.Button btnUnEnvio;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolTip TTHome;
+        private System.Windows.Forms.ToolTip TTEnvios;
+        private System.Windows.Forms.ToolTip TTSucursales;
+        private System.Windows.Forms.ToolTip TTClientes;
+        private System.Windows.Forms.ToolTip TTReportes;
+        private System.Windows.Forms.ToolTip TTConfig;
     }
 }
