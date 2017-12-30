@@ -216,4 +216,13 @@
         gg==
 </value>
   </data>
+  <data name="btnBack.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAKpJREFUSEtj
+        GFnAMethnFP2PXkol7rAKeNRpmPmw39AfM+t5AU3VJg6wCHzYTnQ4P9A/Nch61ECVJg6gLaGZz3MBxoM
+        ChbqG+6Y8TBv1HAM4JT5MJdmhjtkPUiGGg5KMRRjqLEI4Jj5qAibQnIx1FhU4JT1MBUo+RekwCnjYQVU
+        mLrAIfNByjCxBBLpw8ASx4wHScPDEmDEZwMtAGVE6lc4MEDTKnOQAgYGAHcF+o/Cs7ppAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
 </root>

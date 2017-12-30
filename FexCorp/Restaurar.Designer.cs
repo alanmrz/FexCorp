@@ -159,6 +159,7 @@
             this.btnCancel.Size = new System.Drawing.Size(68, 52);
             this.btnCancel.TabIndex = 18;
             this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSiguiente
             // 

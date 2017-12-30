@@ -71,6 +71,14 @@ namespace FexCorp
             frm.Show();
             this.Close();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            MenuClientes frm = new MenuClientes();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
         ////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }

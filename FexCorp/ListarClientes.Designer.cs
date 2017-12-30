@@ -103,6 +103,7 @@
             this.btnBack.Size = new System.Drawing.Size(34, 28);
             this.btnBack.TabIndex = 39;
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // dataGridView1
             // 

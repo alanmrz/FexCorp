@@ -73,6 +73,22 @@ namespace FexCorp
             this.Close();
         }
 
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            NuevoEnvio frm = new NuevoEnvio();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            MenuEnvios frm = new MenuEnvios();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
         //////////////////////////////////////////////////////////////////////////////////////
     }
 }

@@ -40,6 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnEnviados = new System.Windows.Forms.Button();
             this.btnEntregados = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -193,12 +194,25 @@
             this.btnEntregados.TabIndex = 19;
             this.btnEntregados.UseVisualStyleBackColor = false;
             // 
+            // btnBack
+            // 
+            this.btnBack.FlatAppearance.BorderSize = 0;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
+            this.btnBack.Location = new System.Drawing.Point(94, 24);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(34, 28);
+            this.btnBack.TabIndex = 50;
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // EstadoEnvios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(815, 398);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnEntregados);
             this.Controls.Add(this.btnEnviados);
             this.Controls.Add(this.label1);
@@ -229,5 +243,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnEnviados;
         private System.Windows.Forms.Button btnEntregados;
+        private System.Windows.Forms.Button btnBack;
     }
 }

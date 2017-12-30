@@ -73,6 +73,14 @@ namespace FexCorp
             this.Close();
         }
 
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            MenuSucursal frm = new MenuSucursal();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+            this.Close();
+        }
+
         /////////////////////////////////////////////////////////////////////////////////////
     }
 }
