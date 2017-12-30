@@ -21,6 +21,10 @@ namespace FexCorp
         {
             this.FormBorderStyle = FormBorderStyle.None;
             this.Size = new Size(768, 398);
+
+            chart1.Series["Salario"].Points.AddXY("Pedro", 1000);
+            chart1.Series["Salario"].Points.AddXY("Juan", 2000);
+
         }
 
         /////////////////////////////////////////////////////////////////CONFIGURACION DE BOTONES
