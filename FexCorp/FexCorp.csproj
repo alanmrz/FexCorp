@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoDatos.cs" />
     <Compile Include="BackUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +83,7 @@
     <Compile Include="FormContenedor.Designer.cs">
       <DependentUpon>FormContenedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="GestionClientes.cs" />
     <Compile Include="ListarClientes.cs">
       <SubType>Form</SubType>
     </Compile>
