@@ -12,6 +12,7 @@ namespace FexCorp
 {
     public partial class ListarClientes : Form
     {
+        DataSet dsClientes;
         public ListarClientes()
         {
             InitializeComponent();
@@ -19,6 +20,12 @@ namespace FexCorp
 
         private void ListarClientes_Load(object sender, EventArgs e)
         {
+            dsClientes = new DataSet();
+            GestionClientes gp = new GestionClientes();
+            gp.ObtenerTodosLosClientes("Cliente", ref dsClientes);
+            dataGridView1.DataSource = dsClientes.Tables["Cliente"];
+
+            //////////////////////////
             this.FormBorderStyle = FormBorderStyle.None;
             this.Size = new Size(768, 398);
         }
@@ -78,6 +85,14 @@ namespace FexCorp
             frm.MdiParent = this.ParentForm;
             frm.Show();
             this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dsClientes.Tables.Clear();
+            GestionClientes gp = new GestionClientes();
+            gp.ObtenerTodosLosClientes("Cliente", ref dsClientes);
+            dataGridView1.DataSource = dsClientes.Tables["Cliente"];
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////
     }
