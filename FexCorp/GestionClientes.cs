@@ -10,10 +10,25 @@ namespace FexCorp
 {
     class GestionClientes
     {
-        public void ObtenerTodosLosClientes(String nombreTabla, ref DataSet ds)
+
+        private DataTable ObtenerTabla(String nombre, String sql)
         {
-            AccesoDatos ad = new AccesoDatos();
-            ad.cargaTabla(nombreTabla, "select * from Cliente", ref ds);
+            DataSet ds = new DataSet();
+            AccesoDatos datos = new AccesoDatos();
+            SqlDataAdapter adp = datos.ObtenerAdaptador(sql);
+            adp.Fill(ds, nombre);
+            return ds.Tables[nombre];
         }
+
+        public DataTable ObtenerTodos()
+        {
+            return ObtenerTabla("Clientes", "Select * from Cliente");
+        }
+
+        public DataTable ObtenerDni(String dni)
+        {
+            return ObtenerTabla("Clientes", "Select * from CLiente where DNI=" + dni);
+        }
+
     }
 }

@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace FexCorp
 {
     public partial class ListarClientes : Form
     {
-        DataSet dsClientes;
+
         public ListarClientes()
         {
             InitializeComponent();
@@ -20,10 +21,15 @@ namespace FexCorp
 
         private void ListarClientes_Load(object sender, EventArgs e)
         {
-            dsClientes = new DataSet();
-            GestionClientes gp = new GestionClientes();
-            gp.ObtenerTodosLosClientes("Cliente", ref dsClientes);
-            dataGridView1.DataSource = dsClientes.Tables["Cliente"];
+            SqlConnection cnEnvios = new SqlConnection();
+            AccesoDatos ac = new AccesoDatos();
+            cnEnvios = ac.ObtenerConexion();
+
+            GestionClientes gc = new GestionClientes();
+            DataTable dtClientes = new DataTable();
+            dtClientes = gc.ObtenerTodos();
+
+            grdClientes.DataSource = dtClientes;
 
             //////////////////////////
             this.FormBorderStyle = FormBorderStyle.None;
@@ -87,13 +93,36 @@ namespace FexCorp
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnTodos_Click(object sender, EventArgs e)
         {
-            dsClientes.Tables.Clear();
-            GestionClientes gp = new GestionClientes();
-            gp.ObtenerTodosLosClientes("Cliente", ref dsClientes);
-            dataGridView1.DataSource = dsClientes.Tables["Cliente"];
+            SqlConnection cnEnvios = new SqlConnection();
+            AccesoDatos ac = new AccesoDatos();
+            cnEnvios = ac.ObtenerConexion();
+
+            GestionClientes gc = new GestionClientes();
+            DataTable dtClientes = new DataTable();
+            dtClientes = gc.ObtenerTodos();
+
+            grdClientes.DataSource = dtClientes;
+            txtDni.Text = "";
         }
+
+        private void btnFiltrar_Click(object sender, EventArgs e)
+        {
+            if (txtDni.Text != "")
+            {
+                SqlConnection cnEnvios = new SqlConnection();
+                AccesoDatos ac = new AccesoDatos();
+                cnEnvios = ac.ObtenerConexion();
+
+                GestionClientes gc = new GestionClientes();
+                DataTable dtClientes = new DataTable();
+                dtClientes = gc.ObtenerDni(txtDni.Text);
+
+                grdClientes.DataSource = dtClientes;
+            }
+        }
+
         ////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }
