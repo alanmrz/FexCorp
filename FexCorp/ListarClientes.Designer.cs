@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListarClientes));
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnTodos = new System.Windows.Forms.Button();
+            this.txtDni = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnFiltrar = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.grdClientes = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnConfig = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
@@ -42,32 +42,32 @@
             this.btnSucursal = new System.Windows.Forms.Button();
             this.btnEnvios = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdClientes)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button2
+            // btnTodos
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button2.Location = new System.Drawing.Point(469, 125);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(138, 31);
-            this.button2.TabIndex = 43;
-            this.button2.Text = "Mostrar Todos ";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnTodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnTodos.FlatAppearance.BorderSize = 0;
+            this.btnTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTodos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTodos.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnTodos.Location = new System.Drawing.Point(469, 125);
+            this.btnTodos.Name = "btnTodos";
+            this.btnTodos.Size = new System.Drawing.Size(138, 31);
+            this.btnTodos.TabIndex = 43;
+            this.btnTodos.Text = "Mostrar Todos ";
+            this.btnTodos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTodos.UseVisualStyleBackColor = false;
+            this.btnTodos.Click += new System.EventHandler(this.btnTodos_Click);
             // 
-            // textBox1
+            // txtDni
             // 
-            this.textBox1.Location = new System.Drawing.Point(293, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(446, 20);
-            this.textBox1.TabIndex = 42;
+            this.txtDni.Location = new System.Drawing.Point(293, 69);
+            this.txtDni.Name = "txtDni";
+            this.txtDni.Size = new System.Drawing.Size(446, 20);
+            this.txtDni.TabIndex = 42;
             // 
             // label3
             // 
@@ -80,19 +80,20 @@
             this.label3.TabIndex = 41;
             this.label3.Text = "DNI Cliente:";
             // 
-            // button1
+            // btnFiltrar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button1.Location = new System.Drawing.Point(293, 125);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 31);
-            this.button1.TabIndex = 40;
-            this.button1.Text = "Filtrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnFiltrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(43)))));
+            this.btnFiltrar.FlatAppearance.BorderSize = 0;
+            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFiltrar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFiltrar.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.btnFiltrar.Location = new System.Drawing.Point(293, 125);
+            this.btnFiltrar.Name = "btnFiltrar";
+            this.btnFiltrar.Size = new System.Drawing.Size(138, 31);
+            this.btnFiltrar.TabIndex = 40;
+            this.btnFiltrar.Text = "Filtrar";
+            this.btnFiltrar.UseVisualStyleBackColor = false;
+            this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
             // btnBack
             // 
@@ -106,14 +107,14 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // dataGridView1
+            // grdClientes
             // 
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(148, 191);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(618, 178);
-            this.dataGridView1.TabIndex = 38;
+            this.grdClientes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdClientes.Location = new System.Drawing.Point(148, 191);
+            this.grdClientes.Name = "grdClientes";
+            this.grdClientes.Size = new System.Drawing.Size(618, 178);
+            this.grdClientes.TabIndex = 38;
             // 
             // panel1
             // 
@@ -228,18 +229,18 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(768, 398);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnTodos);
+            this.Controls.Add(this.txtDni);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnFiltrar);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.grdClientes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ListarClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "ListarClientes";
             this.Load += new System.EventHandler(this.ListarClientes_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdClientes)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -248,12 +249,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnTodos;
+        private System.Windows.Forms.TextBox txtDni;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFiltrar;
         private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView grdClientes;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnConfig;
         private System.Windows.Forms.Button btnReportes;

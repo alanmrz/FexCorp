@@ -66,3 +66,37 @@ C:\Users\Alan\Documents\GitHub\FexCorp\FexCorp\obj\Debug\FexCorp.Reporte_3.resou
 C:\Users\Alan\Documents\GitHub\FexCorp\FexCorp\obj\Debug\FexCorp.Restaurar.resources
 C:\Users\Alan\Documents\GitHub\FexCorp\FexCorp\obj\Debug\FexCorp.SeguimientoEnvio.resources
 C:\Users\Alan\Documents\GitHub\FexCorp\FexCorp\obj\Debug\FexCorp.csproj.GenerateResource.Cache
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\bin\Debug\FexCorp.exe.config
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.exe
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.pdb
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\bin\Debug\FexCorp.exe
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\bin\Debug\FexCorp.pdb
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.csprojResolveAssemblyReference.cache
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.BackUp.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.Eliminar.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.EliminarCliente.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.EliminarSucursal.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.EstadoEnvios.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.FormContenedor.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.ListarClientes.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.ListarEnvios.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.ListarSucursales.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.MenuClientes.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.MenuConfiguracion.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.MenuEnvios.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.MenuPrincipal.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.MenuReportes.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.MenuSeguimiento.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.MenuSucursal.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.ModificarEnvio.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.ModificarSeguimiento.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.NuevaSucursal.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.NuevoEnvio.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.NuevoEnvio2.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.Properties.Resources.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.Reporte_1.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.Reporte_2.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.Reporte_3.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.Restaurar.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.SeguimientoEnvio.resources
+C:\Users\Fede_\Desktop\Programas C++\Proyectos\FexCorp\FexCorp\obj\Debug\FexCorp.csproj.GenerateResource.Cache

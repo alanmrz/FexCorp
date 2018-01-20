@@ -10,8 +10,8 @@ namespace FexCorp
 {
     class AccesoDatos
     {
-        String rutaBDNeptuno =
-       "Data Source=localhost\\sqlexpress;Initial Catalog=Envios;Integrated Security=True";
+        String rutaNeptuno =
+        "Data Source=localhost\\sqlexpress;Initial Catalog=Envios;Integrated Security=True";
 
         public AccesoDatos()
         {
@@ -20,7 +20,7 @@ namespace FexCorp
 
         public SqlConnection ObtenerConexion()
         {
-            SqlConnection cn = new SqlConnection(rutaBDNeptuno);
+            SqlConnection cn = new SqlConnection(rutaNeptuno);
             try
             {
                 cn.Open();
@@ -31,39 +31,19 @@ namespace FexCorp
                 return null;
             }
         }
-        public SqlDataAdapter ObtenerAdaptador(String consultaSql, SqlConnection cn)
+
+        public SqlDataAdapter ObtenerAdaptador(String consultaSql)
         {
             SqlDataAdapter adaptador;
             try
             {
-                adaptador = new SqlDataAdapter(consultaSql, cn);
+                adaptador = new SqlDataAdapter(consultaSql, rutaNeptuno);
                 return adaptador;
             }
             catch (Exception ex)
             {
                 return null;
             }
-        }
-
-        public void cargaTabla(String NombreTabla, String Sql, ref DataSet ds)
-        {
-            SqlConnection cn = ObtenerConexion();
-            SqlDataAdapter adp = ObtenerAdaptador(Sql, cn);
-            adp.Fill(ds, NombreTabla);
-        }
-
-        public int EjecutarProcedimientoAlmacenado(SqlCommand Comando, String NombreSP)
-        {
-            int FilasCambiadas;
-            SqlConnection Conexion = ObtenerConexion();
-            SqlCommand cmd = new SqlCommand();
-            cmd = Comando;
-            cmd.Connection = Conexion;
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.CommandText = NombreSP;
-            FilasCambiadas = cmd.ExecuteNonQuery();
-            Conexion.Close();
-            return FilasCambiadas;
         }
     }
 }
